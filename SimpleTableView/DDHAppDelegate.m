@@ -7,7 +7,8 @@
 //
 
 #import "DDHAppDelegate.h"
-#import "DDHTableViewController.h"
+#import "DDHGlobalViewController.h"
+#import "DDHGlobalTableViewDataSource.h"
 
 @implementation DDHAppDelegate
 
@@ -15,7 +16,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[DDHTableViewController alloc] init]];
+    DDHGlobalTableViewDataSource *globalTableViewDataSource = [[DDHGlobalTableViewDataSource alloc] init];
+    DDHGlobalViewController *globalViewController = [[DDHGlobalViewController alloc] init];
+    globalViewController.tableViewDataSource = globalTableViewDataSource;
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:globalViewController];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

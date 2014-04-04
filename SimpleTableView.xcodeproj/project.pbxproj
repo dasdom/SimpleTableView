@@ -19,8 +19,11 @@
 		B4C2A02918EC3D55005B822C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C2A01118EC3D55005B822C /* UIKit.framework */; };
 		B4C2A03118EC3D55005B822C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4C2A02F18EC3D55005B822C /* InfoPlist.strings */; };
 		B4C2A03318EC3D55005B822C /* SimpleTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2A03218EC3D55005B822C /* SimpleTableViewTests.m */; };
-		B4C2A03E18EC3DA9005B822C /* DDHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2A03D18EC3DA9005B822C /* DDHTableViewController.m */; };
+		B4C2A03E18EC3DA9005B822C /* DDHGlobalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2A03D18EC3DA9005B822C /* DDHGlobalViewController.m */; };
 		B4C2A04118EC4B25005B822C /* DDHDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2A04018EC4B25005B822C /* DDHDataFetcher.m */; };
+		F20BD58C18EC88DA005114A3 /* DDHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20BD58B18EC88DA005114A3 /* DDHWebViewController.m */; };
+		F20BD58F18EC8EA1005114A3 /* DDHGlobalView.m in Sources */ = {isa = PBXBuildFile; fileRef = F20BD58E18EC8EA1005114A3 /* DDHGlobalView.m */; };
+		F20BD59318EC9FDA005114A3 /* DDHGlobalTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F20BD59218EC9FDA005114A3 /* DDHGlobalTableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +53,17 @@
 		B4C2A02E18EC3D55005B822C /* SimpleTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		B4C2A03018EC3D55005B822C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B4C2A03218EC3D55005B822C /* SimpleTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewTests.m; sourceTree = "<group>"; };
-		B4C2A03C18EC3DA9005B822C /* DDHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHTableViewController.h; path = TableViewController/DDHTableViewController.h; sourceTree = "<group>"; };
-		B4C2A03D18EC3DA9005B822C /* DDHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHTableViewController.m; path = TableViewController/DDHTableViewController.m; sourceTree = "<group>"; };
+		B4C2A03C18EC3DA9005B822C /* DDHGlobalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHGlobalViewController.h; path = TableViewController/DDHGlobalViewController.h; sourceTree = "<group>"; };
+		B4C2A03D18EC3DA9005B822C /* DDHGlobalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHGlobalViewController.m; path = TableViewController/DDHGlobalViewController.m; sourceTree = "<group>"; };
 		B4C2A03F18EC4B25005B822C /* DDHDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHDataFetcher.h; path = DataFetcher/DDHDataFetcher.h; sourceTree = "<group>"; };
 		B4C2A04018EC4B25005B822C /* DDHDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHDataFetcher.m; path = DataFetcher/DDHDataFetcher.m; sourceTree = "<group>"; };
+		F20BD58A18EC88DA005114A3 /* DDHWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHWebViewController.h; path = WebViewController/DDHWebViewController.h; sourceTree = "<group>"; };
+		F20BD58B18EC88DA005114A3 /* DDHWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHWebViewController.m; path = WebViewController/DDHWebViewController.m; sourceTree = "<group>"; };
+		F20BD58D18EC8EA1005114A3 /* DDHGlobalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHGlobalView.h; path = TableViewController/DDHGlobalView.h; sourceTree = "<group>"; };
+		F20BD58E18EC8EA1005114A3 /* DDHGlobalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHGlobalView.m; path = TableViewController/DDHGlobalView.m; sourceTree = "<group>"; };
+		F20BD59118EC9FDA005114A3 /* DDHGlobalTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHGlobalTableViewDataSource.h; path = TableViewController/DDHGlobalTableViewDataSource.h; sourceTree = "<group>"; };
+		F20BD59218EC9FDA005114A3 /* DDHGlobalTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHGlobalTableViewDataSource.m; path = TableViewController/DDHGlobalTableViewDataSource.m; sourceTree = "<group>"; };
+		F20BD59418ECA165005114A3 /* DDHSetData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DDHSetData.h; path = TableViewController/DDHSetData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +125,9 @@
 			children = (
 				B4C2A01C18EC3D55005B822C /* DDHAppDelegate.h */,
 				B4C2A01D18EC3D55005B822C /* DDHAppDelegate.m */,
-				B4C2A03C18EC3DA9005B822C /* DDHTableViewController.h */,
-				B4C2A03D18EC3DA9005B822C /* DDHTableViewController.m */,
+				F20BD59018EC8EAB005114A3 /* Global */,
+				F20BD58A18EC88DA005114A3 /* DDHWebViewController.h */,
+				F20BD58B18EC88DA005114A3 /* DDHWebViewController.m */,
 				B4C2A03F18EC4B25005B822C /* DDHDataFetcher.h */,
 				B4C2A04018EC4B25005B822C /* DDHDataFetcher.m */,
 				B4C2A01F18EC3D55005B822C /* Images.xcassets */,
@@ -152,6 +163,20 @@
 				B4C2A02F18EC3D55005B822C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F20BD59018EC8EAB005114A3 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B4C2A03C18EC3DA9005B822C /* DDHGlobalViewController.h */,
+				B4C2A03D18EC3DA9005B822C /* DDHGlobalViewController.m */,
+				F20BD58D18EC8EA1005114A3 /* DDHGlobalView.h */,
+				F20BD58E18EC8EA1005114A3 /* DDHGlobalView.m */,
+				F20BD59118EC9FDA005114A3 /* DDHGlobalTableViewDataSource.h */,
+				F20BD59218EC9FDA005114A3 /* DDHGlobalTableViewDataSource.m */,
+				F20BD59418ECA165005114A3 /* DDHSetData.h */,
+			);
+			name = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,10 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20BD58F18EC8EA1005114A3 /* DDHGlobalView.m in Sources */,
+				F20BD59318EC9FDA005114A3 /* DDHGlobalTableViewDataSource.m in Sources */,
+				F20BD58C18EC88DA005114A3 /* DDHWebViewController.m in Sources */,
 				B4C2A01A18EC3D55005B822C /* main.m in Sources */,
 				B4C2A01E18EC3D55005B822C /* DDHAppDelegate.m in Sources */,
 				B4C2A04118EC4B25005B822C /* DDHDataFetcher.m in Sources */,
-				B4C2A03E18EC3DA9005B822C /* DDHTableViewController.m in Sources */,
+				B4C2A03E18EC3DA9005B822C /* DDHGlobalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +478,7 @@
 				B4C2A03818EC3D55005B822C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4C2A03918EC3D55005B822C /* Build configuration list for PBXNativeTarget "SimpleTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +487,7 @@
 				B4C2A03B18EC3D55005B822C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
