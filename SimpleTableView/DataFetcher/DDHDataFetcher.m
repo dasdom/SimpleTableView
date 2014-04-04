@@ -7,6 +7,7 @@
 //
 
 #import "DDHDataFetcher.h"
+#import "NSData+Additions.h"
 
 static NSString *baseURLString = @"https://alpha-api.app.net/stream/0/";
 
@@ -53,6 +54,7 @@ static NSURL *globalStreamURL(void) { return [NSURL URLWithString:[NSString stri
         NSError *jsonError = nil;
         NSDictionary *responseDictionary = nil;
         if (!error) {
+//            NSLog(@"dataString: %@", [data stringValue]);
             responseDictionary = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&jsonError];
             error = jsonError;
         }

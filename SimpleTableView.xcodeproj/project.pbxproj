@@ -18,12 +18,16 @@
 		B4C2A02818EC3D55005B822C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C2A00D18EC3D55005B822C /* Foundation.framework */; };
 		B4C2A02918EC3D55005B822C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C2A01118EC3D55005B822C /* UIKit.framework */; };
 		B4C2A03118EC3D55005B822C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4C2A02F18EC3D55005B822C /* InfoPlist.strings */; };
-		B4C2A03318EC3D55005B822C /* SimpleTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2A03218EC3D55005B822C /* SimpleTableViewTests.m */; };
 		B4C2A03E18EC3DA9005B822C /* DDHGlobalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2A03D18EC3DA9005B822C /* DDHGlobalViewController.m */; };
 		B4C2A04118EC4B25005B822C /* DDHDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2A04018EC4B25005B822C /* DDHDataFetcher.m */; };
+		EA73AF8B1F8840D2985FEBAA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5665A22D16FB49FDAC8E217F /* libPods.a */; };
 		F20BD58C18EC88DA005114A3 /* DDHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20BD58B18EC88DA005114A3 /* DDHWebViewController.m */; };
 		F20BD58F18EC8EA1005114A3 /* DDHGlobalView.m in Sources */ = {isa = PBXBuildFile; fileRef = F20BD58E18EC8EA1005114A3 /* DDHGlobalView.m */; };
 		F20BD59318EC9FDA005114A3 /* DDHGlobalTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F20BD59218EC9FDA005114A3 /* DDHGlobalTableViewDataSource.m */; };
+		F27E9E7F18EEADE00011D5D3 /* globalStreamResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = F27E9E7E18EEADE00011D5D3 /* globalStreamResponse.json */; };
+		F27E9E8218EEB1B20011D5D3 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9E8118EEB1B20011D5D3 /* NSData+Additions.m */; };
+		F294D90918EEA78D00BE0637 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F294D90818EEA78D00BE0637 /* libPods.a */; };
+		F2E134F518EEA32F00D86E78 /* DDHDataFetcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E134F418EEA32F00D86E78 /* DDHDataFetcherTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5665A22D16FB49FDAC8E217F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C2A00A18EC3D55005B822C /* SimpleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C2A00D18EC3D55005B822C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B4C2A00F18EC3D55005B822C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,7 +57,6 @@
 		B4C2A02618EC3D55005B822C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B4C2A02E18EC3D55005B822C /* SimpleTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		B4C2A03018EC3D55005B822C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B4C2A03218EC3D55005B822C /* SimpleTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewTests.m; sourceTree = "<group>"; };
 		B4C2A03C18EC3DA9005B822C /* DDHGlobalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHGlobalViewController.h; path = TableViewController/DDHGlobalViewController.h; sourceTree = "<group>"; };
 		B4C2A03D18EC3DA9005B822C /* DDHGlobalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHGlobalViewController.m; path = TableViewController/DDHGlobalViewController.m; sourceTree = "<group>"; };
 		B4C2A03F18EC4B25005B822C /* DDHDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHDataFetcher.h; path = DataFetcher/DDHDataFetcher.h; sourceTree = "<group>"; };
@@ -64,6 +68,12 @@
 		F20BD59118EC9FDA005114A3 /* DDHGlobalTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDHGlobalTableViewDataSource.h; path = TableViewController/DDHGlobalTableViewDataSource.h; sourceTree = "<group>"; };
 		F20BD59218EC9FDA005114A3 /* DDHGlobalTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHGlobalTableViewDataSource.m; path = TableViewController/DDHGlobalTableViewDataSource.m; sourceTree = "<group>"; };
 		F20BD59418ECA165005114A3 /* DDHSetData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DDHSetData.h; path = TableViewController/DDHSetData.h; sourceTree = "<group>"; };
+		F252809F6C7F4D4787F1892B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F27E9E7E18EEADE00011D5D3 /* globalStreamResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = globalStreamResponse.json; sourceTree = "<group>"; };
+		F27E9E8018EEB1B20011D5D3 /* NSData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Additions.h"; path = "ClassCategories/NSData+Additions.h"; sourceTree = "<group>"; };
+		F27E9E8118EEB1B20011D5D3 /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Additions.m"; path = "ClassCategories/NSData+Additions.m"; sourceTree = "<group>"; };
+		F294D90818EEA78D00BE0637 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		F2E134F418EEA32F00D86E78 /* DDHDataFetcherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDHDataFetcherTests.m; path = DataFetcherTests/DDHDataFetcherTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,7 @@
 				B4C2A01018EC3D55005B822C /* CoreGraphics.framework in Frameworks */,
 				B4C2A01218EC3D55005B822C /* UIKit.framework in Frameworks */,
 				B4C2A00E18EC3D55005B822C /* Foundation.framework in Frameworks */,
+				EA73AF8B1F8840D2985FEBAA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F294D90918EEA78D00BE0637 /* libPods.a in Frameworks */,
 				B4C2A02718EC3D55005B822C /* XCTest.framework in Frameworks */,
 				B4C2A02918EC3D55005B822C /* UIKit.framework in Frameworks */,
 				B4C2A02818EC3D55005B822C /* Foundation.framework in Frameworks */,
@@ -97,6 +109,7 @@
 				B4C2A02C18EC3D55005B822C /* SimpleTableViewTests */,
 				B4C2A00C18EC3D55005B822C /* Frameworks */,
 				B4C2A00B18EC3D55005B822C /* Products */,
+				F252809F6C7F4D4787F1892B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,10 +125,12 @@
 		B4C2A00C18EC3D55005B822C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F294D90818EEA78D00BE0637 /* libPods.a */,
 				B4C2A00D18EC3D55005B822C /* Foundation.framework */,
 				B4C2A00F18EC3D55005B822C /* CoreGraphics.framework */,
 				B4C2A01118EC3D55005B822C /* UIKit.framework */,
 				B4C2A02618EC3D55005B822C /* XCTest.framework */,
+				5665A22D16FB49FDAC8E217F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,6 +145,8 @@
 				F20BD58B18EC88DA005114A3 /* DDHWebViewController.m */,
 				B4C2A03F18EC4B25005B822C /* DDHDataFetcher.h */,
 				B4C2A04018EC4B25005B822C /* DDHDataFetcher.m */,
+				F27E9E8018EEB1B20011D5D3 /* NSData+Additions.h */,
+				F27E9E8118EEB1B20011D5D3 /* NSData+Additions.m */,
 				B4C2A01F18EC3D55005B822C /* Images.xcassets */,
 				B4C2A01418EC3D55005B822C /* Supporting Files */,
 			);
@@ -150,7 +167,7 @@
 		B4C2A02C18EC3D55005B822C /* SimpleTableViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				B4C2A03218EC3D55005B822C /* SimpleTableViewTests.m */,
+				F2E134F418EEA32F00D86E78 /* DDHDataFetcherTests.m */,
 				B4C2A02D18EC3D55005B822C /* Supporting Files */,
 			);
 			path = SimpleTableViewTests;
@@ -159,6 +176,7 @@
 		B4C2A02D18EC3D55005B822C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F27E9E7E18EEADE00011D5D3 /* globalStreamResponse.json */,
 				B4C2A02E18EC3D55005B822C /* SimpleTableViewTests-Info.plist */,
 				B4C2A02F18EC3D55005B822C /* InfoPlist.strings */,
 			);
@@ -186,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4C2A03618EC3D55005B822C /* Build configuration list for PBXNativeTarget "SimpleTableView" */;
 			buildPhases = (
+				7FD4A98E87F6445C9EC51EDF /* Check Pods Manifest.lock */,
 				B4C2A00618EC3D55005B822C /* Sources */,
 				B4C2A00718EC3D55005B822C /* Frameworks */,
 				B4C2A00818EC3D55005B822C /* Resources */,
+				A9039F6D77AA4B20A256B68C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,11 +284,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27E9E7F18EEADE00011D5D3 /* globalStreamResponse.json in Resources */,
 				B4C2A03118EC3D55005B822C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FD4A98E87F6445C9EC51EDF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9039F6D77AA4B20A256B68C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B4C2A00618EC3D55005B822C /* Sources */ = {
@@ -277,6 +331,7 @@
 			files = (
 				F20BD58F18EC8EA1005114A3 /* DDHGlobalView.m in Sources */,
 				F20BD59318EC9FDA005114A3 /* DDHGlobalTableViewDataSource.m in Sources */,
+				F27E9E8218EEB1B20011D5D3 /* NSData+Additions.m in Sources */,
 				F20BD58C18EC88DA005114A3 /* DDHWebViewController.m in Sources */,
 				B4C2A01A18EC3D55005B822C /* main.m in Sources */,
 				B4C2A01E18EC3D55005B822C /* DDHAppDelegate.m in Sources */,
@@ -289,7 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4C2A03318EC3D55005B822C /* SimpleTableViewTests.m in Sources */,
+				F2E134F518EEA32F00D86E78 /* DDHDataFetcherTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +450,7 @@
 		};
 		B4C2A03718EC3D55005B822C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F252809F6C7F4D4787F1892B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -408,6 +464,7 @@
 		};
 		B4C2A03818EC3D55005B822C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F252809F6C7F4D4787F1892B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -421,6 +478,7 @@
 		};
 		B4C2A03A18EC3D55005B822C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F252809F6C7F4D4787F1892B /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleTableView.app/SimpleTableView";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -434,7 +492,16 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "SimpleTableViewTests/SimpleTableViewTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -452,7 +519,16 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleTableView/SimpleTableView-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "SimpleTableViewTests/SimpleTableViewTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
