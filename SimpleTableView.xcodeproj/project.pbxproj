@@ -499,7 +499,7 @@
 				INFOPLIST_FILE = "SimpleTableViewTests/SimpleTableViewTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods",
 				);
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,7 +526,7 @@
 				INFOPLIST_FILE = "SimpleTableViewTests/SimpleTableViewTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Pods",
 				);
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
